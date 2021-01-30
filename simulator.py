@@ -241,7 +241,7 @@ class Simulator:
             command += ['-S', 'True']
             command += ['-Q', 'True']
         if self.train_mode:
-            command += ['--scale', '1.2']
+            command += ['--scale', '1.0']
         # collect trip info if necessary
         subprocess.Popen(command)
         # wait 2s to establish the traci server
