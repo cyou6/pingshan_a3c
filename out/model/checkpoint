@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/changxi/sumo_projects/multi_agent_dqn2/out/model/model"
+all_model_checkpoint_paths: "/home/changxi/sumo_projects/multi_agent_dqn2/out/model/model"

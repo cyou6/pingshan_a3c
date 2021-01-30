@@ -1,0 +1,17 @@
+<configuration>
+    <input>
+       <net-file value="demo.net.xml"/>
+       <route-files value="demo.rou.xml"/>
+       <gui-settings-file value="demo.settings.xml"/>
+       <additional-files value="demo.detector.xml" />
+    </input>
+    <output>
+        <human-readable-time value="true" />
+        <summary-output value="demo.summary.xml" />
+	<tripinfo-output value="demo.tripinfo.xml" />
+        <statistic-output value="demo.statistic.xml" />
+    </output>
+    <processing>
+        <waiting-time-memory value="50" />
+    </processing>
+</configuration>
