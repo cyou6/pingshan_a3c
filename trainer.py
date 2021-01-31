@@ -99,10 +99,10 @@ class Trainer():
 
             action = []
             for i, pi in enumerate(policy):
-                node_name = self.env.node_names[i]
-                fingerprint = self.env.nodes[node_name].fingerprint
-                pi += fingerprint*2.718**(-5e-5*global_step)
-                pi = pi/sum(pi)
+                # node_name = self.env.node_names[i]
+                # fingerprint = self.env.nodes[node_name].fingerprint
+                # pi += fingerprint*2.718**(-5e-5*global_step)
+                # pi = pi/sum(pi)
 
                 action.append(np.random.choice(np.arange(len(pi)), p=pi)) #sample using pi distribution
                 # action.append(self.planned_action(i, pi))
