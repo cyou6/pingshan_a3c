@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Sat Jan 30 23:03:22 2021 by Eclipse SUMO sumo Version 1.8.0
+<!-- generated on Sun Jan 31 19:32:56 2021 by Eclipse SUMO sumo Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -17,7 +17,7 @@
     </output>
 
     <processing>
-        <scale value="1.2"/>
+        <scale value="1"/>
         <time-to-teleport value="140"/>
         <waiting-time-memory value="50"/>
     </processing>
@@ -33,7 +33,7 @@
     </traci_server>
 
     <random_number>
-        <seed value="17785"/>
+        <seed value="52258"/>
     </random_number>
 
     <gui_only>

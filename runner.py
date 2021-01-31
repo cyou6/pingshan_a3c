@@ -55,7 +55,7 @@ def train(args):
     model = Model(sim.n_s_ls, sim.n_a_ls, sim.n_w_ls, sim.n_f_ls, total_step,
                   config['MODEL_CONFIG'], seed=seed)
 
-    model.load(out_dir + '/model/model')
+    # model.load(out_dir + '/model/model')
     # print(sim.n_s_ls, sim.n_a_ls, sim.n_w_ls, sim.n_f_ls)
     summary_writer = None
     if args.tfboard:
