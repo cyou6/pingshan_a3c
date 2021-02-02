@@ -1,0 +1,70 @@
+<mapping>
+  <tlLogic id="light11" >
+    <mainphase state="GGGGgggrrrrrGGGGgggrrrrr" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrGGGGgggrrrrrGGGGgg" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGgrrrrrgrrrrrgrrrrr" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrgrrrrrGGGGGGgrrrrr" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrgrrrrrgrrrrrGGGGGG" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrGGGGGGgrrrrrgrrrrr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+  <tlLogic id="light12" >
+    <mainphase state="GGGGggggrrrrrrGGGGggggrrrrrrrGrG" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrrGGGGggggrrrrrrGGGGgggGrGr" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGGgrrrrrrgrrrrrrgrrrrrrrgrg" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrrgrrrrrrGGGGGGGgrrrrrrrgrg" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrrgrrrrrrgrrrrrrGGGGGGGgrgr" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrrGGGGGGGgrrrrrrgrrrrrrgrgr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+  <tlLogic id="light13" >
+    <mainphase state="GGGGgggrrrrrGGGGgggrrrrr" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrGGGGgggrrrrrGGGGgg" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGgrrrrrgrrrrrgrrrrr" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrgrrrrrGGGGGGgrrrrr" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrgrrrrrgrrrrrGGGGGG" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrGGGGGGgrrrrrgrrrrr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+  <tlLogic id="light21" >
+    <mainphase state="GGGGgggrrrrrGGGGgggrrrrr" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrGGGGgggrrrrrGGGGgg" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGgrrrrrgrrrrrgrrrrr" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrgrrrrrGGGGGGgrrrrr" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrgrrrrrgrrrrrGGGGGG" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrGGGGGGgrrrrrgrrrrr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+  <tlLogic id="light22" >
+    <mainphase state="GGGGGGrrrGGGGGGrrrGGGGGGrrrGGGrrrGGG" direction="0" map="11;11"/>
+    <mainphase state="GrrGGGGGGGrrGGGGGGGrrGGGGGGGGGGGGGrr" direction="1" map="11;11"/>
+  </tlLogic>
+  <tlLogic id="light23" >
+    <mainphase state="GGGGgggrrrrrGGGGgggrrrrr" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrGGGGgggrrrrrGGGGgg" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGgrrrrrgrrrrrgrrrrr" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrgrrrrrGGGGGGgrrrrr" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrgrrrrrgrrrrrGGGGGG" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrGGGGGGgrrrrrgrrrrr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+  <tlLogic id="light31" >
+    <mainphase state="GGGGgggrrrrrGGGGgggrrrrr" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrGGGGgggrrrrrGGGGgg" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGgrrrrrgrrrrrgrrrrr" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrgrrrrrGGGGGGgrrrrr" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrgrrrrrgrrrrrGGGGGG" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrGGGGGGgrrrrrgrrrrr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+  <tlLogic id="light32" >
+    <mainphase state="GGGGggggrrrrrrGGGGggggrrrrrr" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrrGGGGggggrrrrrrGGGGggg" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGGgrrrrrrgrrrrrrgrrrrrr" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrrgrrrrrrGGGGGGGgrrrrrr" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrrgrrrrrrgrrrrrrGGGGGGG" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrrGGGGGGGgrrrrrrgrrrrrr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+  <tlLogic id="light33" >
+    <mainphase state="GGGGgggrrrrrGGGGgggrrrrr" direction="0" map="010000;110011;110011;110011;110011;110011"/>
+    <mainphase state="grrrrrGGGGgggrrrrrGGGGgg" direction="1" map="111100;100000;111100;111100;111100;111100"/>
+    <mainphase state="GGGGGGgrrrrrgrrrrrgrrrrr" direction="0" map="001100;001100;001100;011000;011000;011000"/>
+    <mainphase state="grrrrrgrrrrrGGGGGGgrrrrr" direction="0" map="001100;001100;010100;010100;010100;010100"/>
+    <mainphase state="grrrrrgrrrrrgrrrrrGGGGGG" direction="1" map="000011;000011;000011;000011;000011;100010"/>
+    <mainphase state="grrrrrGGGGGGgrrrrrgrrrrr" direction="1" map="000011;000011;000011;100001;100001;100001"/>
+  </tlLogic>
+</mapping>

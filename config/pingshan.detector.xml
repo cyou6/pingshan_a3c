@@ -1,0 +1,482 @@
+<additional>
+  <laneAreaDetector id="light_sc_1_in1.246_0" freq="1" lane="light_sc_1_in1.246_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in1.246_1" freq="1" lane="light_sc_1_in1.246_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in1.246_2" freq="1" lane="light_sc_1_in1.246_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in1.246_3" freq="1" lane="light_sc_1_in1.246_3" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in1.246_4" freq="1" lane="light_sc_1_in1.246_4" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_1_in2.302_0" freq="1" lane="light_sc_1_in2.302_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in2.302_1" freq="1" lane="light_sc_1_in2.302_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in2.302_2" freq="1" lane="light_sc_1_in2.302_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in2.302_3" freq="1" lane="light_sc_1_in2.302_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_1_in3.69_0" freq="1" lane="light_sc_1_in3.69_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in3.69_1" freq="1" lane="light_sc_1_in3.69_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in3.69_2" freq="1" lane="light_sc_1_in3.69_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in3.69_3" freq="1" lane="light_sc_1_in3.69_3" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in3.69_4" freq="1" lane="light_sc_1_in3.69_4" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_1_in4_0" freq="1" lane="light_sc_1_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in4_1" freq="1" lane="light_sc_1_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in4_2" freq="1" lane="light_sc_1_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_1_in4_3" freq="1" lane="light_sc_1_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_1_out1_3" freq="1" lane="light_sc_1_out1_3" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out1_2" freq="1" lane="light_sc_1_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out1_1" freq="1" lane="light_sc_1_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out1_0" freq="1" lane="light_sc_1_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_sc_1_out2_3" freq="1" lane="light_sc_1_out2_3" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out2_2" freq="1" lane="light_sc_1_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out2_1" freq="1" lane="light_sc_1_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out2_0" freq="1" lane="light_sc_1_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_sc_1_out3_3" freq="1" lane="light_sc_1_out3_3" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out3_2" freq="1" lane="light_sc_1_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out3_1" freq="1" lane="light_sc_1_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out3_0" freq="1" lane="light_sc_1_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_sc_1_out4_2" freq="1" lane="light_sc_1_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out4_1" freq="1" lane="light_sc_1_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_1_out4_0" freq="1" lane="light_sc_1_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_sc_3_in1_0" freq="1" lane="light_sc_3_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in1_1" freq="1" lane="light_sc_3_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in1_2" freq="1" lane="light_sc_3_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in1_3" freq="1" lane="light_sc_3_in1_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_3_in2_0" freq="1" lane="light_sc_3_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in2_1" freq="1" lane="light_sc_3_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in2_2" freq="1" lane="light_sc_3_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in2_3" freq="1" lane="light_sc_3_in2_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_3_in3_0" freq="1" lane="light_sc_3_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in3_1" freq="1" lane="light_sc_3_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_3_in4_0" freq="1" lane="light_sc_3_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in4_1" freq="1" lane="light_sc_3_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in4_2" freq="1" lane="light_sc_3_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_sc_3_in4_3" freq="1" lane="light_sc_3_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_sc_3_out1_1" freq="1" lane="light_sc_3_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_3_out1_0" freq="1" lane="light_sc_3_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_sc_3_out2_3" freq="1" lane="light_sc_3_out2_3" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_3_out2_2" freq="1" lane="light_sc_3_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_3_out2_1" freq="1" lane="light_sc_3_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_3_out2_0" freq="1" lane="light_sc_3_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_sc_3_out3_1" freq="1" lane="light_sc_3_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_3_out3_0" freq="1" lane="light_sc_3_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_sc_3_ou4_2" freq="1" lane="light_sc_3_ou4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_3_ou4_1" freq="1" lane="light_sc_3_ou4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_sc_3_ou4_0" freq="1" lane="light_sc_3_ou4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_lp_2_in1_0" freq="1" lane="light_lp_2_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in1_1" freq="1" lane="light_lp_2_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in1_2" freq="1" lane="light_lp_2_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in1_3" freq="1" lane="light_lp_2_in1_3" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in1_4" freq="1" lane="light_lp_2_in1_4" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lp_2_in2_0" freq="1" lane="light_lp_2_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in2_1" freq="1" lane="light_lp_2_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in2_2" freq="1" lane="light_lp_2_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in2_3" freq="1" lane="light_lp_2_in2_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lp_2_in3_0" freq="1" lane="light_lp_2_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in3_1" freq="1" lane="light_lp_2_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in3_2" freq="1" lane="light_lp_2_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lp_2_in3_3" freq="1" lane="light_lp_2_in3_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lp_2_in4_0" freq="1" lane="light_lp_2_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lp_2_out1_2" freq="1" lane="light_lp_2_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lp_2_out1_1" freq="1" lane="light_lp_2_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lp_2_out1_0" freq="1" lane="light_lp_2_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lp_2_out2_2" freq="1" lane="light_lp_2_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lp_2_out2_1" freq="1" lane="light_lp_2_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lp_2_out2_0" freq="1" lane="light_lp_2_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lp_2_out3_3" freq="1" lane="light_lp_2_out3_3" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lp_2_out3_2" freq="1" lane="light_lp_2_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lp_2_out3_1" freq="1" lane="light_lp_2_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lp_2_out3_0" freq="1" lane="light_lp_2_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lp_2_out4_0" freq="1" lane="light_lp_2_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_lz_1_in1_0" freq="1" lane="light_lz_1_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_1_in2_0" freq="1" lane="light_lz_1_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_1_in2_1" freq="1" lane="light_lz_1_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_1_in2_2" freq="1" lane="light_lz_1_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_1_in2_3" freq="1" lane="light_lz_1_in2_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_1_in3_0" freq="1" lane="light_lz_1_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_1_in3_1" freq="1" lane="light_lz_1_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_1_in4_0" freq="1" lane="light_lz_1_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_1_in4_1" freq="1" lane="light_lz_1_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_1_in4_2" freq="1" lane="light_lz_1_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_1_in4_3" freq="1" lane="light_lz_1_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_1_out1_0" freq="1" lane="light_lz_1_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lz_1_out2_2" freq="1" lane="light_lz_1_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_1_out2_1" freq="1" lane="light_lz_1_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_1_out2_0" freq="1" lane="light_lz_1_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lz_1_out3_1" freq="1" lane="light_lz_1_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_1_out3_0" freq="1" lane="light_lz_1_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lz_1_out4_2" freq="1" lane="light_lz_1_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_1_out4_1" freq="1" lane="light_lz_1_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_1_out4_0" freq="1" lane="light_lz_1_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_lz_2_in1_0" freq="1" lane="light_lz_2_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in1_1" freq="1" lane="light_lz_2_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_2_in2_0" freq="1" lane="light_lz_2_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in2_1" freq="1" lane="light_lz_2_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in2_2" freq="1" lane="light_lz_2_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in2_3" freq="1" lane="light_lz_2_in2_3" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in2_4" freq="1" lane="light_lz_2_in2_4" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_2_in3_0" freq="1" lane="light_lz_2_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in3_1" freq="1" lane="light_lz_2_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in3_2" freq="1" lane="light_lz_2_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_2_in4_0" freq="1" lane="light_lz_2_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in4_1" freq="1" lane="light_lz_2_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in4_2" freq="1" lane="light_lz_2_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in4_3" freq="1" lane="light_lz_2_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lz_2_in4_4" freq="1" lane="light_lz_2_in4_4" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lz_2_out1_1" freq="1" lane="light_lz_2_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_2_out1_0" freq="1" lane="light_lz_2_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lz_2_out2_2" freq="1" lane="light_lz_2_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_2_out2_1" freq="1" lane="light_lz_2_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_2_out2_0" freq="1" lane="light_lz_2_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lz_2_out3_2" freq="1" lane="light_lz_2_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_2_out3_1" freq="1" lane="light_lz_2_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_2_out3_0" freq="1" lane="light_lz_2_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lz_2_out4_2" freq="1" lane="light_lz_2_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_2_out4_1" freq="1" lane="light_lz_2_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lz_2_out4_0" freq="1" lane="light_lz_2_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_xz_2_in1_0" freq="1" lane="light_xz_2_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_xz_2_in1_1" freq="1" lane="light_xz_2_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_xz_2_in2_0" freq="1" lane="light_xz_2_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_xz_2_in3_0" freq="1" lane="light_xz_2_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_xz_2_in3_1" freq="1" lane="light_xz_2_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_xz_2_in4_0" freq="1" lane="light_xz_2_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_xz_2_out1_1" freq="1" lane="light_xz_2_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_xz_2_out1_0" freq="1" lane="light_xz_2_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_xz_2_out2_0" freq="1" lane="light_xz_2_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_xz_2_out3_1" freq="1" lane="light_xz_2_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_xz_2_out3_0" freq="1" lane="light_xz_2_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_xz_2_out4_0" freq="1" lane="light_xz_2_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_xz_1_in1_0" freq="1" lane="light_xz_1_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_xz_1_in2_0" freq="1" lane="light_xz_1_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_xz_1_in2_1" freq="1" lane="light_xz_1_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_xz_1_in3_0" freq="1" lane="light_xz_1_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_xz_1_in4_0" freq="1" lane="light_xz_1_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_xz_1_out1_0" freq="1" lane="light_xz_1_out1_0" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_xz_1_out3_0" freq="1" lane="light_xz_1_out3_0" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_xz_1_out4_0" freq="1" lane="light_xz_1_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_jn_1_in1_0" freq="1" lane="light_jn_1_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_1_in1_1" freq="1" lane="light_jn_1_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_1_in1_2" freq="1" lane="light_jn_1_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_1_in1_3" freq="1" lane="light_jn_1_in1_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_1_in2_0" freq="1" lane="light_jn_1_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_1_in2_1" freq="1" lane="light_jn_1_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_1_in2_2" freq="1" lane="light_jn_1_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_1_in3_0" freq="1" lane="light_jn_1_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_1_in3_1" freq="1" lane="light_jn_1_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_1_in3_2" freq="1" lane="light_jn_1_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_1_out1_2" freq="1" lane="light_jn_1_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_1_out1_1" freq="1" lane="light_jn_1_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_1_out1_0" freq="1" lane="light_jn_1_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_1_out2_1" freq="1" lane="light_jn_1_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_1_out2_0" freq="1" lane="light_jn_1_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_1_out3_3" freq="1" lane="light_jn_1_out3_3" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_1_out3_2" freq="1" lane="light_jn_1_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_1_out3_1" freq="1" lane="light_jn_1_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_1_out3_0" freq="1" lane="light_jn_1_out3_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_ps_1_in1_0" freq="1" lane="light_ps_1_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in1_1" freq="1" lane="light_ps_1_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_1_in2_0" freq="1" lane="light_ps_1_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in2_1" freq="1" lane="light_ps_1_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in2_2" freq="1" lane="light_ps_1_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in2_3" freq="1" lane="light_ps_1_in2_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_1_in3_0" freq="1" lane="light_ps_1_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in3_1" freq="1" lane="light_ps_1_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_1_in4_0" freq="1" lane="light_ps_1_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in4_1" freq="1" lane="light_ps_1_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in4_2" freq="1" lane="light_ps_1_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_1_in4_3" freq="1" lane="light_ps_1_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_1_out1_1" freq="1" lane="light_ps_1_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_1_out1_0" freq="1" lane="light_ps_1_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_1_out2_2" freq="1" lane="light_ps_1_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_1_out2_1" freq="1" lane="light_ps_1_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_1_out2_0" freq="1" lane="light_ps_1_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_1_out3_1" freq="1" lane="light_ps_1_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_1_out3_0" freq="1" lane="light_ps_1_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_1_out4_2" freq="1" lane="light_ps_1_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_1_out4_1" freq="1" lane="light_ps_1_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_1_out4_0" freq="1" lane="light_ps_1_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_jn_2_in1_0" freq="1" lane="light_jn_2_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_2_in1_1" freq="1" lane="light_jn_2_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_2_in2_0" freq="1" lane="light_jn_2_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_2_in2_1" freq="1" lane="light_jn_2_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_2_in2_2" freq="1" lane="light_jn_2_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_2_in4_0" freq="1" lane="light_jn_2_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_2_in4_1" freq="1" lane="light_jn_2_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_2_in4_2" freq="1" lane="light_jn_2_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_2_in4_3" freq="1" lane="light_jn_2_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_2_out1_1" freq="1" lane="light_jn_2_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_2_out1_0" freq="1" lane="light_jn_2_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_2_out2_2" freq="1" lane="light_jn_2_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_2_out2_1" freq="1" lane="light_jn_2_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_2_out2_0" freq="1" lane="light_jn_2_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_2_out4_2" freq="1" lane="light_jn_2_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_2_out4_1" freq="1" lane="light_jn_2_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_2_out4_0" freq="1" lane="light_jn_2_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_jn_3_in1_0" freq="1" lane="light_jn_3_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_3_in1_1" freq="1" lane="light_jn_3_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_3_in2_0" freq="1" lane="light_jn_3_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_3_in2_1" freq="1" lane="light_jn_3_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_3_in2_2" freq="1" lane="light_jn_3_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_3_in4_0" freq="1" lane="light_jn_3_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_3_in4_1" freq="1" lane="light_jn_3_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_3_in4_2" freq="1" lane="light_jn_3_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_3_in4_3" freq="1" lane="light_jn_3_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_3_out1_0" freq="1" lane="light_jn_3_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_3_out2_2" freq="1" lane="light_jn_3_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_3_out2_1" freq="1" lane="light_jn_3_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_3_out2_0" freq="1" lane="light_jn_3_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_3_out4_2" freq="1" lane="light_jn_3_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_3_out4_1" freq="1" lane="light_jn_3_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_3_out4_0" freq="1" lane="light_jn_3_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_ps_2_in1_0" freq="1" lane="light_ps_2_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_2_in1_1" freq="1" lane="light_ps_2_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_2_in1_2" freq="1" lane="light_ps_2_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_2_in1_3" freq="1" lane="light_ps_2_in1_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_2_in2_0" freq="1" lane="light_ps_2_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_2_in2_1" freq="1" lane="light_ps_2_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_2_in3_0" freq="1" lane="light_ps_2_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_2_in3_1" freq="1" lane="light_ps_2_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_2_in3_2" freq="1" lane="light_ps_2_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_2_out1_2" freq="1" lane="light_ps_2_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_2_out1_1" freq="1" lane="light_ps_2_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_2_out1_0" freq="1" lane="light_ps_2_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_2_out2_0" freq="1" lane="light_ps_2_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_2_out3_2" freq="1" lane="light_ps_2_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_2_out3_1" freq="1" lane="light_ps_2_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_2_out3_0" freq="1" lane="light_ps_2_out3_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_ps_3_in1_0" freq="1" lane="light_ps_3_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in1_1" freq="1" lane="light_ps_3_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in1_2" freq="1" lane="light_ps_3_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in1_3" freq="1" lane="light_ps_3_in1_3" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in1_4" freq="1" lane="light_ps_3_in1_4" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_3_in2_0" freq="1" lane="light_ps_3_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in2_1" freq="1" lane="light_ps_3_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in2_2" freq="1" lane="light_ps_3_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in2_3" freq="1" lane="light_ps_3_in2_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_3_in3_0" freq="1" lane="light_ps_3_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in3_1" freq="1" lane="light_ps_3_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in3_2" freq="1" lane="light_ps_3_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in3_3" freq="1" lane="light_ps_3_in3_3" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in3_4" freq="1" lane="light_ps_3_in3_4" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_3_in4_0" freq="1" lane="light_ps_3_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in4_1" freq="1" lane="light_ps_3_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in4_2" freq="1" lane="light_ps_3_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_ps_3_in4_3" freq="1" lane="light_ps_3_in4_3" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_ps_3_out1_2" freq="1" lane="light_ps_3_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out1_1" freq="1" lane="light_ps_3_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out1_0" freq="1" lane="light_ps_3_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_3_out2_2" freq="1" lane="light_ps_3_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out2_1" freq="1" lane="light_ps_3_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out2_0" freq="1" lane="light_ps_3_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_3_out3_2" freq="1" lane="light_ps_3_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out3_1" freq="1" lane="light_ps_3_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out3_0" freq="1" lane="light_ps_3_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_ps_3_out4_2" freq="1" lane="light_ps_3_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out4_1" freq="1" lane="light_ps_3_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_ps_3_out4_0" freq="1" lane="light_ps_3_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_lj_1_in1_0" freq="1" lane="light_lj_1_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_1_in1_1" freq="1" lane="light_lj_1_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_1_in1_2" freq="1" lane="light_lj_1_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_1_in2_0" freq="1" lane="light_lj_1_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_1_in2_1" freq="1" lane="light_lj_1_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_1_in3_0" freq="1" lane="light_lj_1_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_1_in3_1" freq="1" lane="light_lj_1_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_1_in3_2" freq="1" lane="light_lj_1_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_1_in4_0" freq="1" lane="light_lj_1_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_1_in4_1" freq="1" lane="light_lj_1_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_1_out1_2" freq="1" lane="light_lj_1_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_1_out1_1" freq="1" lane="light_lj_1_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_1_out1_0" freq="1" lane="light_lj_1_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_1_out2_1" freq="1" lane="light_lj_1_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_1_out2_0" freq="1" lane="light_lj_1_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_1_out3_2" freq="1" lane="light_lj_1_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_1_out3_1" freq="1" lane="light_lj_1_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_1_out3_0" freq="1" lane="light_lj_1_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_1_out4_1" freq="1" lane="light_lj_1_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_1_out4_0" freq="1" lane="light_lj_1_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_lj_2_in1_0" freq="1" lane="light_lj_2_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in1_1" freq="1" lane="light_lj_2_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in1_2" freq="1" lane="light_lj_2_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_2_in2_0" freq="1" lane="light_lj_2_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in2_1" freq="1" lane="light_lj_2_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in2_2" freq="1" lane="light_lj_2_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_2_in3_0" freq="1" lane="light_lj_2_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in3_1" freq="1" lane="light_lj_2_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in3_2" freq="1" lane="light_lj_2_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_2_in4_0" freq="1" lane="light_lj_2_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in4_1" freq="1" lane="light_lj_2_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_2_in4_2" freq="1" lane="light_lj_2_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_2_out1_2" freq="1" lane="light_lj_2_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out1_1" freq="1" lane="light_lj_2_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out1_0" freq="1" lane="light_lj_2_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_2_out2_2" freq="1" lane="light_lj_2_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out2_1" freq="1" lane="light_lj_2_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out2_0" freq="1" lane="light_lj_2_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_2_out3_2" freq="1" lane="light_lj_2_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out3_1" freq="1" lane="light_lj_2_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out3_0" freq="1" lane="light_lj_2_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_2_out4_2" freq="1" lane="light_lj_2_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out4_1" freq="1" lane="light_lj_2_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_2_out4_0" freq="1" lane="light_lj_2_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_lj_3_in1_0" freq="1" lane="light_lj_3_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_3_in1_1" freq="1" lane="light_lj_3_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_3_in1_2" freq="1" lane="light_lj_3_in1_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_3_in2_0" freq="1" lane="light_lj_3_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_3_in3_0" freq="1" lane="light_lj_3_in3_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_3_in3_1" freq="1" lane="light_lj_3_in3_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_lj_3_in3_2" freq="1" lane="light_lj_3_in3_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_3_in4_0" freq="1" lane="light_lj_3_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_lj_3_out1_2" freq="1" lane="light_lj_3_out1_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_3_out1_1" freq="1" lane="light_lj_3_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_3_out1_0" freq="1" lane="light_lj_3_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_3_out2_0" freq="1" lane="light_lj_3_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_3_out3_2" freq="1" lane="light_lj_3_out3_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_3_out3_1" freq="1" lane="light_lj_3_out3_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_lj_3_out3_0" freq="1" lane="light_lj_3_out3_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_lj_3_out4_0" freq="1" lane="light_lj_3_out4_0" file="ild.out" pos="1" endPos="101"/>
+  <!-- ################################# -->
+
+  <laneAreaDetector id="light_jn_7_in1_0" freq="1" lane="light_jn_7_in1_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_7_in1_1" freq="1" lane="light_jn_7_in1_1" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_7_in2_0" freq="1" lane="light_jn_7_in2_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_7_in2_1" freq="1" lane="light_jn_7_in2_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_7_in2_2" freq="1" lane="light_jn_7_in2_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_7_in4_0" freq="1" lane="light_jn_7_in4_0" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_7_in4_1" freq="1" lane="light_jn_7_in4_1" file="ild.out" pos="-101" endPos="-1"/>
+  <laneAreaDetector id="light_jn_7_in4_2" freq="1" lane="light_jn_7_in4_2" file="ild.out" pos="-101" endPos="-1"/>
+
+  <laneAreaDetector id="light_jn_7_out1_1" freq="1" lane="light_jn_7_out1_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_7_out1_0" freq="1" lane="light_jn_7_out1_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_7_out2_2" freq="1" lane="light_jn_7_out2_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_7_out2_1" freq="1" lane="light_jn_7_out2_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_7_out2_0" freq="1" lane="light_jn_7_out2_0" file="ild.out" pos="1" endPos="101"/>
+
+  <laneAreaDetector id="light_jn_7_out4_2" freq="1" lane="light_jn_7_out4_2" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_7_out4_1" freq="1" lane="light_jn_7_out4_1" file="ild.out" pos="1" endPos="101"/>
+  <laneAreaDetector id="light_jn_7_out4_0" freq="1" lane="light_jn_7_out4_0" file="ild.out" pos="1" endPos="101"/>
+</additional>

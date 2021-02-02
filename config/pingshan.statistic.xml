@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Feb  2 20:01:29 2021 by Eclipse SUMO sumo Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="./config/pingshan.net.xml"/>
+        <route-files value="./config/pingshan.rou.xml"/>
+        <additional-files value="./config/pingshan.detector.xml"/>
+    </input>
+
+    <output>
+        <human-readable-time value="true"/>
+        <summary-output value="./config/pingshan.summary.xml"/>
+        <tripinfo-output value="./config/pingshan.tripinfo.xml"/>
+        <statistic-output value="./config/pingshan.statistic.xml"/>
+    </output>
+
+    <processing>
+        <scale value="1.2"/>
+        <time-to-teleport value="140"/>
+        <waiting-time-memory value="50"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="8015"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="58567"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="./config/pingshan.settings.xml"/>
+    </gui_only>
+
+</configuration>

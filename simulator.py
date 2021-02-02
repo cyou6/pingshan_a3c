@@ -5,47 +5,11 @@ from sumolib import checkBinary
 import time
 import random
 import traci
+from tls_data import PHASESETS, PHASEMAPPINGS, NODES
 
 DEFAULT_PORT = 8000
 
 STATE_NAMES = ['wave', 'wait']
-
-
-PHASESETS = {
-    'default': ['GGGGgggrrrrrGGGGgggrrrrr', 'grrrrrGGGGgggrrrrrGGGGgg',
-                'GGGGGGgrrrrrgrrrrrgrrrrr', 'grrrrrgrrrrrGGGGGGgrrrrr',
-                'grrrrrgrrrrrgrrrrrGGGGGG', 'grrrrrGGGGGGgrrrrrgrrrrr'],  # default
-    'light12': ['GGGGggggrrrrrrGGGGggggrrrrrrrGrG', 'grrrrrrGGGGggggrrrrrrGGGGgggGrGr',
-                'GGGGGGGgrrrrrrgrrrrrrgrrrrrrrgrg', 'grrrrrrgrrrrrrGGGGGGGgrrrrrrrgrg',
-                'grrrrrrgrrrrrrgrrrrrrGGGGGGGgrgr', 'grrrrrrGGGGGGGgrrrrrrgrrrrrrgrgr'],
-    'light22': ['GGGGGGrrrGGGGGGrrrGGGGGGrrrGGGrrrGGG', 'GrrGGGGGGGrrGGGGGGGrrGGGGGGGGGGGGGrr'],
-    'light32': ['GGGGggggrrrrrrGGGGggggrrrrrr', 'grrrrrrGGGGggggrrrrrrGGGGggg',
-                'GGGGGGGgrrrrrrgrrrrrrgrrrrrr', 'grrrrrrgrrrrrrGGGGGGGgrrrrrr',
-                'grrrrrrgrrrrrrgrrrrrrGGGGGGG', 'grrrrrrGGGGGGGgrrrrrrgrrrrrr'
-                ]
-}
-
-PHASEMAPPINGS = {
-    "default": [['110000','110011','110011','110011','110011','110011'],
-                ['111100','110000','111100','111100','111100','111100'],
-                ['001100','001100','001100','011000','011000','011000'],
-                ['001100','001100','010100','010100','010100','010100'],
-                ['000011','000011','000011','000011','000011','100010'],
-                ['000011','000011','000011','100001','100001','100001']],
-    "light22": [['11','11'],
-                ['11','11']]
-}
-
-# node: (phase_set key, phase_mapping_key, neighbor list)
-NODES = {'light11': ('default', 'default', ['light12', 'light21']),
-         'light12': ('light12', 'default', ['light11', 'light13', 'light22']),
-         'light13': ('default', 'default', ['light12', 'light23']),
-         'light21': ('default', 'default', ['light11', 'light22', 'light31']),
-         'light22': ('light22', 'light22', ['light21', 'light23', 'light12', 'light32']),
-         'light23': ('default', 'default', ['light22', 'light13', 'light33']),
-         'light31': ('default', 'default', ['light32', 'light21']),
-         'light32': ('light32', 'default', ['light31', 'light33', 'light22']),
-         'light33': ('default', 'default', ['light32', 'light23'])}
 
 
 class PhaseSet:
@@ -225,7 +189,7 @@ class Simulator:
         return policy
 
     def _init_sim(self, seed, gui=False):
-        sumocfg_file = "./config/demo30000.sumocfg"
+        sumocfg_file = "./config/pingshan.sumocfg"
         if gui:
             app = 'sumo-gui'
         else:
@@ -241,7 +205,7 @@ class Simulator:
             command += ['-S', 'True']
             command += ['-Q', 'True']
         if self.train_mode:
-            command += ['--scale', '1.0']
+            command += ['--scale', '1.2']
         # collect trip info if necessary
         subprocess.Popen(command)
         # wait 2s to establish the traci server
@@ -266,7 +230,7 @@ class Simulator:
                 num_wave += self.nodes[nnode_name].num_state
                 num_fingerprint += self.nodes[nnode_name].num_fingerprint
             # wait time, halt time, jam vehicle, mean speed
-            num_wait = 0 if 'wait' not in self.state_names else node.num_state*6
+            num_wait = 0 if 'wait' not in self.state_names else node.num_state*5
             self.n_s_ls.append(num_wave + num_wait + num_fingerprint)
             self.n_f_ls.append(num_fingerprint)
             self.n_w_ls.append(num_wait)
@@ -274,9 +238,9 @@ class Simulator:
 
 
     @staticmethod
-    def _norm_clip_state(x, norm, clip=-1):
+    def _norm_clip_state(x, norm, clip=1):
         x = x / norm
-        return x if clip < 0 else np.clip(x, 0, clip)
+        return np.clip(x, -clip, clip)
 
     def _reset_state(self):
         for node_name in self.node_names:
@@ -415,16 +379,16 @@ class Simulator:
                     cur_speed = []
                     cur_jam_v = []
                     cur_jam_m = []
-                    cur_jam_p = []
+                    # cur_jam_p = []
                     for ild in node.ilds_in:
 
-                        cur_occ.append(self.sim.lanearea.getLastStepOccupancy(ild))
-                        cur_halt.append(self.sim.lanearea.getLastStepHaltingNumber(ild))
-                        cur_speed.append(self.sim.lanearea.getLastStepMeanSpeed(ild))
-                        cur_jam_v.append(self.sim.lanearea.getJamLengthVehicle(ild))
-                        cur_jam_m.append(self.sim.lanearea.getJamLengthMeters(ild))
-                        cur_jam_p.append(cur_occ[-1] > 60)
-                    cur_state = cur_occ + cur_halt + cur_speed + cur_jam_v + cur_jam_m + cur_jam_p
+                        cur_occ.append(self._norm_clip_state(self.sim.lanearea.getLastStepOccupancy(ild),norm=1,clip=1))
+                        cur_halt.append(self._norm_clip_state(self.sim.lanearea.getLastStepHaltingNumber(ild),norm=1,clip=100))
+                        cur_speed.append(self._norm_clip_state(self.sim.lanearea.getLastStepMeanSpeed(ild),norm=1,clip=30))
+                        cur_jam_v.append(self._norm_clip_state(self.sim.lanearea.getJamLengthVehicle(ild),norm=1,clip=200))
+                        cur_jam_m.append(self._norm_clip_state(self.sim.lanearea.getJamLengthMeters(ild),norm=1,clip=200))
+                        # cur_jam_p.append(cur_occ[-1] > 60)
+                    cur_state = cur_occ + cur_halt + cur_speed + cur_jam_v + cur_jam_m 
                     cur_state = np.array(cur_state)
                 
                 if state_name == 'wave':

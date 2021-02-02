@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb  1 19:25:33 2021
+
+@author: changxi
+"""
+
+PHASESETS = {
+    'light_sc_1': ['GGGggrrrrrGGGGgrrrrrr', 'rrrGgrrrrrrrrrGrrrrrr',
+                   'rrrrGGGGGgrrrrrGGGGGg', 'rrrrgrrrrGrrrrrrrrrrG',
+                   'GGGGgrrrrrrrrrrrrrrrr', 'rrrrgrrrrrGGGGGrrrrrr',
+                   'rrrrGGGGGGrrrrrrrrrrr', 'rrrrgrrrrrrrrrrGGGGGG'],
+    'light_sc_3': ['GGGggrrrGGGggrrrrr', 'rrrGGrrrrrrGGrrrrr',
+                   'rrrrrGGgrrrrrGGggg', 'rrrrrrrGrrrrrggGGG',
+                   'GGGGGrrrrrrrrrrrrr', 'rrrrrrrrGGGGGrrrrr',
+                   'rrrrrGGGrrrrrrrrrr', 'rrrrrrrrrrrrrGGGGG'],
+    'light_lp_2': ['GgggrrrrGGGggrrrrr', 'gGGGrrrrgggGgrrrrr',
+                   'rrrrGGGggrrrGGGGGg', 'rrrrgggGgrrrgggggG',
+                   'GGGGrrrrgrrrgrrrrr', 'rrrrrrrrGGGGgrrrrr',
+                   'rrrrGGGGgrrrgrrrrr', 'rrrrrrrrgrrrGGGGGG'],
+    'light_lz_1': ['GGGGggrrGGGggrr', 'grrrGgrrrrrGgrr',
+                   'grrrrGGgrrrrGGg', 'grrrrgrGrrrrgrG',
+                   'GGGGGgrrrrrrgrr', 'grrrrgrrGGGGgrr',
+                   'grrrrGGGrrrrgrr', 'grrrrgrrrrrrGGG'],    
+    'light_lz_2': ['GGGGggrrrGGGGGGggrrrr', 'rrrrGgrrrgggrrrGgrrrr',
+                   'grrrrGGGggggrrrrGGGGg', 'grrrrgrrGgggrrrrgrrrG',
+                   'GGGGGgrrrgggrrrrgrrrr', 'grrrrgrrrGGGGGGGgrrrr',
+                   'grrrrGGGGgggrrrrgrrrr', 'grrrrgrrrgggrrrrGGGGG'],     
+    'light_xz_1': ['GGgrrGggr', 'grGrrgGgr',
+                   'grrGggrGG', 'grrrGgrgr',
+                   'GGGrrgrgr', 'grrrrGGgr',
+                   'grrGGgrgr', 'grrGrgrGG'], 
+    'light_xz_2': ['GGggrrrGGggrrr', 'grGgrrrgrGgrrr',
+                   'grrGGGggrrGGGg', 'grrgrrGgrrgrrG',
+                   'GGGgrrrgrrgrrr', 'grrgrrrGGGgrrr',
+                   'grrGGGGgrrgrrr', 'grrgrrrgrrGGGG'],       
+    'light_ps_1': ['GGGGgrrrGGGGgrrr', 'grrrGrrrgrrrGrrr',
+                   'grrrrGGggrrrrGGg', 'grrrrrrGgrrrrrrG',
+                   'GGGGGrrrgrrrrrrr', 'grrrrrrrGGGGGrrr',
+                   'grrrrGGGgrrrrrrr', 'grrrrrrrgrrrrGGG'], 
+    'light_ps_2': ['GGGgrrrGGGG', 'rrrrGGGrrrr',
+                   'GGGGrrrrrrr', 'GGGrrrrGGGG'],   
+    'light_ps_3': ['GGGGgrrrrrGGGGGgrrrrr', 'grrrGrrrrrggrrrGrrrrr',
+                   'grrrrGGGggggrrrrGGGgg', 'grrrrrrrGGggrrrrrrrGG',
+                   'GGGGGrrrrrggrrrrrrrrr', 'grrrrrrrrrGGGGGGrrrrr',
+                   'grrrrGGGGGggrrrrrrrrr', 'grrrrrrrrrggrrrrGGGGG'],  
+    'light_jn_1': ['GGGrrrrrrrr', 'gggGGGGGGGg',
+                   'gggGGGGGGGr', 'gggrrrGGGGG'],  
+    'light_jn_2': ['GGGGGGGggrrr', 'grrrrrrrGGGG',
+                   'GGGGGGGrgrrr', 'grrrGGGGgrrr'], 
+    'light_jn_3': ['GGGGGGGggr', 'grrrrrrrGG',
+                   'GGGGGGGrgr', 'grrrGGGGgr'],
+    'light_jn_7': ['GGgrrrrrrrrr', 'grGGGggGGGgg',
+                   'grGGGGGrrrrr', 'grgrrrrGGGGG'],      
+    'light_lj_1': ['GGGggrrrrGGGggrrrr', 'grrrGGGGggrrrGGGGg',
+                   'GGGggrrrrgrrrgrrrr', 'grrrgrrrrGGGggrrrr',
+                   'grrrGGGGGgrrrgrrrr', 'grrrgrrrrgrrrGGGGG'], 
+    'light_lj_2': ['GGGGggrrrrGGGGggrrrr', 'grrrrGGGGggrrrrGGGGg',
+                   'GGGGGgrrrrgrrrrgrrrr', 'grrrrgrrrrGGGGGgrrrr',
+                   'grrgrGGGGGgrrrrgrrrr', 'grrrrgrrrrgrrrrGGGGG'],  
+    'light_lj_3': ['GGggrrrrGGggrrrr', 'grrGGGGggrrGGGGg',
+                   'GGGgrrrrgrrgrrrr', 'grrgrrrrGGGgrrrr',
+                   'grrGGGGGgrrgrrrr', 'grrgrrrrgrrGGGGG']    
+}
+
+PHASEMAPPINGS = {
+    "default_6": [['110000','110011','110011','110011','110011','110011'],
+                  ['111100','110000','111100','111100','111100','111100'],
+                  ['001100','001100','001100','011000','011000','011000'],
+                  ['001100','001100','010100','010100','010100','010100'],
+                  ['000011','000011','000011','000011','000011','100010'],
+                  ['000011','000011','000011','100001','100001','100001']],
+    "default_8": [['11100011','11100011','11100011','11100011','11100011','11100011','11100011','11100011'],
+                  ['01100011','01100011','01100011','01100011','01100011','01100011','01100011','01100011'],
+                  ['10111100','10101100','10111100','10101100','10111100','10111100','10111100','10111100'],
+                  ['10011100','10011100','10011100','10011100','10011100','10011100','10011100','10011100'],
+                  ['00101100','00101100','00001100','00001100','00101100','00101000','00101100','00101100'],
+                  ['00101100','00101100','00001100','00001100','00100100','00101100','00101100','00101100'],
+                  ['00000011','00000011','10000011','10000011','10000011','10000011','10000011','10000010'],
+                  ['00000011','00000011','10000011','10000011','10000011','10000011','10000001','10000011']],    
+    "T_v": [['1100','1100','1100','1100'],
+            ['1111','1111','1111','1111'],
+            ['0111','0011','0111','0110'],
+            ['0111','0011','0101','0111']],
+    "T_h": [['1111','1111','1111','1111'],
+            ['1100','1100','1100','1100'],
+            ['0011','1011','1011','1010'],
+            ['0011','1011','1001','1011']]  
+}
+
+# node: (phase_set key, phase_mapping_key, neighbor list)
+NODES = {'light_sc_1': ('light_sc_1', 'default_8', ['light_sc_3']),
+         'light_sc_3': ('light_sc_3', 'default_8', ['light_sc_1','light_jn_1', 'light_ps_1','light_lp_2']),
+         'light_lp_2': ('light_lp_2', 'default_8', ['light_lz_1', 'light_xz_1','light_sc_3']),
+         'light_lz_1': ('light_lz_1', 'default_8', ['light_lp_2', 'light_lz_2', 'light_xz_1']),
+         'light_lz_2': ('light_lz_2', 'default_8', ['light_lz_1', 'light_xz_2','light_ps_1']),
+         'light_xz_1': ('light_xz_1', 'default_8', ['light_lp_2', 'light_lz_1', 'light_xz_2']),
+         'light_xz_2': ('light_xz_2', 'default_8', ['light_xz_1', 'light_lz_2']),
+         'light_ps_1': ('light_ps_1', 'default_8', ['light_lz_2', 'light_sc_3', 'light_jn_2', 'light_jn_3', 'light_ps_2']),
+         'light_ps_2': ('light_ps_2', 'T_v', ['light_ps_1', 'light_ps_3', 'light_lj_1']),
+         'light_ps_3': ('light_ps_3', 'default_8', ['light_ps_2']),
+         'light_jn_1': ('light_jn_1', 'T_h', ['light_jn_2', 'light_ps_1', 'light_sc_3']),
+         'light_jn_2': ('light_jn_2', 'T_v', ['light_jn_1', 'light_jn_3', 'light_ps_1']),
+         'light_jn_3': ('light_jn_3', 'T_v', ['light_jn_2', 'light_ps_1']),
+         'light_jn_7': ('light_jn_7', 'T_h', ['light_lj_3']),
+         'light_lj_1': ('light_lj_1', 'default_6', ['light_ps_2', 'light_lj_2']),
+         'light_lj_2': ('light_lj_2', 'default_6', ['light_lj_1', 'light_lj_3']),
+         'light_lj_3': ('light_lj_3', 'default_6', ['light_lj_2', 'light_jn_7'])}
+
+
+
