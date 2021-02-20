@@ -198,14 +198,14 @@ class Simulator:
         command += ['--seed', str(seed)]
         command += ['--remote-port', str(self.port)]
         command += ['--no-step-log', 'True']
-        command += ['--time-to-teleport', '140'] # teleport for safety
+        command += ['--time-to-teleport', '600'] # teleport for safety
         command += ['--no-warnings', 'True']
         command += ['--duration-log.disable', 'True']
         if gui:
             command += ['-S', 'True']
             command += ['-Q', 'True']
         if self.train_mode:
-            command += ['--scale', '1.2']
+            command += ['--scale', '1.3']
         # collect trip info if necessary
         subprocess.Popen(command)
         # wait 2s to establish the traci server

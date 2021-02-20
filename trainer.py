@@ -5,7 +5,6 @@ import tensorflow as tf
 import time
 import os
 import pandas as pd
-# from simulator import PLANS
 
 
 def check_dir(cur_dir):
@@ -99,13 +98,9 @@ class Trainer():
 
             action = []
             for i, pi in enumerate(policy):
-                # node_name = self.env.node_names[i]
-                # fingerprint = self.env.nodes[node_name].fingerprint
-                # pi += fingerprint*2.718**(-5e-5*global_step)
-                # pi = pi/sum(pi)
-
+                
                 action.append(np.random.choice(np.arange(len(pi)), p=pi)) #sample using pi distribution
-                # action.append(self.planned_action(i, pi))
+
             next_ob, agent_rewards, done, global_reward = self.env.step(action)
             global_rewards.append(global_reward)
 
@@ -164,27 +159,6 @@ class Trainer():
         df = pd.DataFrame(self.data)
         df.to_csv(self.output_path['log'] + 'train_reward.csv')
 
-    # def planned_action(self, i, policy):
-    #     action = np.random.choice(np.arange(len(policy)), p=policy)
-    #     node_name = self.env.node_names[i]
-    #     if len(self.plans[i]) == 0:
-    #         phase_id = self.env.nodes[node_name].phase_id
-    #         for plan in PLANS[phase_id]: # set of plans for node i
-    #             if self.env.phase_map.phases[phase_id].phases[action] == plan[0]: # check first action of each plan
-    #                 self.plans[i] = list(plan) # save plan for each node
-    #                 self.plans[i].pop(0) # pop plan[0], keep remaining
-    #                 break
-    #     else:
-    #         if action != self.env.nodes[node_name].prev_action or i == 4: # i==4 for light22
-    #             literal_action = self.plans[i].pop(0)
-    #             phase_id = self.env.nodes[node_name].phase_id # implement action in remaining plan
-    #             for i, phase in enumerate(self.env.phase_map.phases[phase_id].phases):
-    #                 if phase == literal_action:
-    #                     action = i
-    #                     break
-    #         else:
-    #             action = action
-    #     return action
 
 class Player:
     def __init__(self, sim, model):
@@ -217,25 +191,3 @@ class Player:
         self.env.terminate()
         time.sleep(2)
 
-    # def planned_action(self, i, policy):
-    #     action = np.argmax(np.array(policy))
-    #     # action = np.random.choice(np.arange(len(policy)), p=policy)
-    #     node_name = self.env.node_names[i]
-    #     if len(self.plans[i]) == 0:
-    #         phase_id = self.env.nodes[node_name].phase_id
-    #         for plan in PLANS[phase_id]:
-    #             if self.env.phase_map.phases[phase_id].phases[action] == plan[0]:
-    #                 self.plans[i] = list(plan)
-    #                 self.plans[i].pop(0)
-    #                 break
-    #     else:
-    #         if action != self.env.nodes[node_name].prev_action or i == 4:
-    #             literal_action = self.plans[i].pop(0)
-    #             phase_id = self.env.nodes[node_name].phase_id
-    #             for i, phase in enumerate(self.env.phase_map.phases[phase_id].phases):
-    #                 if phase == literal_action:
-    #                     action = i
-    #                     break
-    #         else:
-    #             action = action
-    #     return action

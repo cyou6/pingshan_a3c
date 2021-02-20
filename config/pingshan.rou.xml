@@ -79,6 +79,7 @@
    <flow id="carflow68" type="car3" beg="0" end="200000" number="2000" from="In_08" to="Out_01"/>
    <flow id="carflow69" type="car3" beg="0" end="200000" number="2000" from="In_08" to="Out_02"/>
    <flow id="carflow70" type="car3" beg="0" end="200000" number="2000" from="In_08" to="Out_03"/>
+   <flow id="carflow70_2" type="car3" beg="0" end="200000" number="2000" from="In_08" to="Out_07"/>
    <flow id="carflow71" type="car2" beg="0" end="200000" number="2000" from="In_08" to="Out_10"/>
    <flow id="carflow72" type="car3" beg="0" end="200000" number="2000" from="In_08" to="Out_11"/>
    <flow id="carflow73" type="car" beg="0" end="200000" number="2000" from="In_08" to="Out_12"/>
@@ -86,7 +87,7 @@
    <flow id="carflow75" type="car3" beg="0" end="200000" number="2000" from="In_08" to="Out_14"/>
    <flow id="carflow76" type="car" beg="0" end="200000" number="2000" from="In_08" to="Out_15"/>
 
-
+<!--
    <flow id="carflow77" type="car3" beg="0" end="200000" number="2000" from="In_09" to="Out_01"/>
    <flow id="carflow78" type="car3" beg="0" end="200000" number="2000" from="In_09" to="Out_02"/>
    <flow id="carflow79" type="car3" beg="0" end="200000" number="2000" from="In_09" to="Out_03"/>
@@ -95,7 +96,7 @@
    <flow id="carflow82" type="car"  beg="0" end="200000" number="2000" from="In_09" to="Out_12"/>
    <flow id="carflow83" type="car"  beg="0" end="200000" number="2000" from="In_09" to="Out_13"/>
    <flow id="carflow84" type="car3" beg="0" end="200000" number="2000" from="In_09" to="Out_14"/>
-   <flow id="carflow85" type="car"  beg="0" end="200000" number="2000" from="In_09" to="Out_15"/>
+   <flow id="carflow85" type="car"  beg="0" end="200000" number="2000" from="In_09" to="Out_15"/> -->
 
    <flow id="carflow86" type="car3" beg="0" end="200000" number="2000" from="In_10" to="Out_01"/>
    <flow id="carflow87" type="car3" beg="0" end="200000" number="2000" from="In_10" to="Out_02"/>
@@ -113,6 +114,7 @@
    <flow id="carflow98" type="car"  beg="0" end="200000" number="2000" from="In_11" to="Out_03"/>
    <flow id="carflow99" type="car3" beg="0" end="200000" number="2000" from="In_11" to="Out_04"/>
    <flow id="carflow100" type="car3" beg="0" end="200000" number="2000" from="In_11" to="Out_06"/>
+   <flow id="carflow100_2" type="car3" beg="0" end="200000" number="2000" from="In_11" to="Out_07"/>
    <flow id="carflow101" type="car2" beg="0" end="200000" number="2000" from="In_11" to="Out_09"/>
    <flow id="carflow102" type="car"  beg="0" end="200000" number="2000" from="In_11" to="Out_12"/>
    <flow id="carflow103" type="car3" beg="0" end="200000" number="2000" from="In_11" to="Out_14"/>
@@ -126,6 +128,7 @@
    <flow id="carflow110" type="car3" beg="0" end="200000" number="2000" from="In_12" to="Out_14"/>
    <flow id="carflow111" type="car"  beg="0" end="200000" number="2000" from="In_12" to="Out_15"/>
 
+<!--
    <flow id="carflow112" type="car3" beg="0" end="200000" number="2000" from="In_13" to="Out_02"/>
    <flow id="carflow113" type="car"  beg="0" end="200000" number="2000" from="In_13" to="Out_04"/>
    <flow id="carflow114" type="car3" beg="0" end="200000" number="2000" from="In_13" to="Out_06"/>
@@ -142,92 +145,51 @@
    <flow id="carflow124" type="car3" beg="0" end="200000" number="2000" from="In_14" to="Out_11"/>
    <flow id="carflow125" type="car"  beg="0" end="200000" number="2000" from="In_14" to="Out_15"/>
 
+
    <flow id="carflow126" type="car3" beg="0" end="200000" number="2000" from="In_15" to="Out_02"/>
    <flow id="carflow127" type="car"  beg="0" end="200000" number="2000" from="In_15" to="Out_04"/>
    <flow id="carflow128" type="car3" beg="0" end="200000" number="2000" from="In_15" to="Out_06"/>
    <flow id="carflow129" type="car3" beg="0" end="200000" number="2000" from="In_15" to="Out_08"/>
    <flow id="carflow130" type="car2" beg="0" end="200000" number="2000" from="In_15" to="Out_10"/>
    <flow id="carflow131" type="car3" beg="0" end="200000" number="2000" from="In_15" to="Out_12"/>
-   <flow id="carflow132" type="car"  beg="0" end="200000" number="2000" from="In_15" to="Out_14"/>
+   <flow id="carflow132" type="car"  beg="0" end="200000" number="2000" from="In_15" to="Out_14"/> -->
+
+   <flow id="carflow133" type="car"  beg="0" end="200000" number="2000" from="In_16" to="Out_17"/>
+   <flow id="carflow134" type="car3" beg="0" end="200000" number="2000" from="In_16" to="Out_18"/>
+   <flow id="carflow135" type="car3" beg="0" end="200000" number="2000" from="In_16" to="Out_20"/>
+   <flow id="carflow136" type="car3" beg="0" end="200000" number="2000" from="In_16" to="Out_21"/>
+
+   <flow id="carflow137" type="car"  beg="0" end="200000" number="2000" from="In_17" to="Out_16"/>
+   <flow id="carflow138" type="car3" beg="0" end="200000" number="2000" from="In_17" to="Out_18"/>
+   <flow id="carflow139" type="car3" beg="0" end="200000" number="4000" from="In_17" to="Out_20"/>
+   <flow id="carflow140" type="car3" beg="0" end="200000" number="2000" from="In_17" to="Out_21"/>
+   <flow id="carflow140_2" type="car3" beg="0" end="200000" number="2000" from="In_17" to="Out_23"/>
+
+   <flow id="carflow141" type="car3" beg="0" end="200000" number="2000" from="In_20" to="Out_16"/>
+   <flow id="carflow142" type="car3" beg="0" end="200000" number="2000" from="In_20" to="Out_17"/>
+   <flow id="carflow143" type="car3" beg="0" end="200000" number="2000" from="In_20" to="Out_18"/>
+   <flow id="carflow143_2" type="car3" beg="0" end="200000" number="4000" from="In_20" to="Out_23"/>
+   <flow id="carflow143_3" type="car3" beg="0" end="200000" number="4000" from="In_20" to="Out_21"/>
+
+   <flow id="carflow144" type="car3" beg="0" end="200000" number="2000" from="In_21" to="Out_16"/>
+   <flow id="carflow145" type="car3" beg="0" end="200000" number="4000" from="In_21" to="Out_17"/>
+   <flow id="carflow146" type="car3" beg="0" end="200000" number="2000" from="In_21" to="Out_18"/>
+
+   <flow id="carflow147" type="car3" beg="0" end="200000" number="2000" from="In_19" to="Out_22"/>
+   <flow id="carflow148" type="car"  beg="0" end="200000" number="2000" from="In_19" to="Out_14"/>
+   <flow id="carflow149" type="car3" beg="0" end="200000" number="2000" from="In_19" to="Out_07"/>
+   <flow id="carflow149_2" type="car3" beg="0" end="200000" number="4000" from="In_19" to="Out_24"/>
+
+   <flow id="carflow150" type="car3" beg="0" end="200000" number="4000" from="In_22" to="Out_07"/>
+
+   <flow id="carflow151" type="car3" beg="0" end="200000" number="4000" from="In_23" to="Out_20"/>
+
+   <flow id="carflow152" type="car3" beg="0" end="200000" number="4000" from="In_24" to="Out_19"/>
 
    <vType id="person1" type="pedestrian" length="0.5" width="0.6" mingap="0.01" maxSpeed="3.6" accel="0.5" decel="0.5" sigma="0.5" color="blue"/>
    <vType id="person2" type="pedestrian" length="0.5" width="0.6" mingap="0.01" maxSpeed="2.4" accel="0.5" decel="0.5" sigma="0.5" color="green"/>
    <vType id="person3" type="pedestrian" length="0.5" width="0.6" mingap="0.01" maxSpeed="3.6" accel="0.5" decel="0.5" sigma="0.5" color="white"/>
    <vType id="person4" type="pedestrian" length="0.5" width="0.6" mingap="0.01" maxSpeed="2.4" accel="0.5" decel="0.5" sigma="0.5" color="red"/>
-<!--
-   <personFlow id="personflow1" type="person1" begin="0" end="1000000" number="3000">
-       <walk from="P2" to="P1"/>
-       <walk from="P2" to="P3"/>
-       <walk from="P2" to="P4"/>
-       <walk from="P2" to="P5"/>
-       <walk from="P2" to="P6"/>
-       <walk from="P2" to="P7"/>
-       <walk from="P2" to="P8"/>
-   </personFlow>
-   <personFlow id="personflow2" type="person2" begin="0" end="1000000" number="3000">
-       <walk from="P4" to="P1"/>
-       <walk from="P4" to="P2"/>
-       <walk from="P4" to="P3"/>
-       <walk from="P4" to="P5"/>
-       <walk from="P4" to="P6"/>
-       <walk from="P4" to="P7"/>
-       <walk from="P4" to="P8"/>
-   </personFlow>
-   <personFlow id="personflow3" type="person3" begin="0" end="1000000" number="3000">
-       <walk from="P6" to="P1"/>
-       <walk from="P6" to="P2"/>
-       <walk from="P6" to="P3"/>
-       <walk from="P6" to="P4"/>
-       <walk from="P6" to="P5"/>
-       <walk from="P6" to="P7"/>
-       <walk from="P6" to="P8"/>
-   </personFlow>
-   <personFlow id="personflow4" type="person4" begin="0" end="1000000" number="3000">
-       <walk from="P8" to="P1"/>
-       <walk from="P8" to="P2"/>
-       <walk from="P8" to="P3"/>
-       <walk from="P8" to="P4"/>
-       <walk from="P8" to="P5"/>
-       <walk from="P8" to="P6"/>
-       <walk from="P8" to="P7"/>
-   </personFlow>
-   <personFlow id="personflow5" type="person1" begin="0" end="1000000" number="3000">
-       <walk from="P1" to="P2"/>
-       <walk from="P1" to="P3"/>
-       <walk from="P1" to="P4"/>
-       <walk from="P1" to="P5"/>
-       <walk from="P1" to="P6"/>
-       <walk from="P1" to="P7"/>
-       <walk from="P1" to="P8"/>
-   </personFlow>
-   <personFlow id="personflow6" type="person2" begin="0" end="1000000" number="3000">
-       <walk from="P3" to="P1"/>
-       <walk from="P3" to="P2"/>
-       <walk from="P3" to="P4"/>
-       <walk from="P3" to="P5"/>
-       <walk from="P3" to="P6"/>
-       <walk from="P3" to="P7"/>
-       <walk from="P3" to="P8"/>
-   </personFlow>
-   <personFlow id="personflow7" type="person3" begin="0" end="1000000" number="3000">
-       <walk from="P5" to="P1"/>
-       <walk from="P5" to="P2"/>
-       <walk from="P5" to="P3"/>
-       <walk from="P5" to="P4"/>
-       <walk from="P5" to="P6"/>
-       <walk from="P5" to="P7"/>
-       <walk from="P5" to="P8"/>
-   </personFlow>
-   <personFlow id="personflow8" type="person4" begin="0" end="1000000" number="3000">
-       <walk from="P7" to="P1"/>
-       <walk from="P7" to="P2"/>
-       <walk from="P7" to="P3"/>
-       <walk from="P7" to="P4"/>
-       <walk from="P7" to="P5"/>
-       <walk from="P7" to="P6"/>
-       <walk from="P7" to="P8"/>
-   </personFlow>
--->
 
 </routes>
 

@@ -1,0 +1,78 @@
+2021-02-20 09:47:59,462 [INFO] Env: init 17 node information:
+light_jn_1:
+	neigbor: ['light_jn_2', 'light_ps_1', 'light_sc_3']
+	ilds_in: ['light_jn_1_in2_0', 'light_jn_1_in2_1', 'light_jn_1_in2_2', 'light_jn_1_in3_0', 'light_jn_1_in3_1', 'light_jn_1_in3_2', 'light_jn_1_in1_0', 'light_jn_1_in1_1', 'light_jn_1_in1_2', 'light_jn_1_in1_3']
+light_jn_2:
+	neigbor: ['light_jn_1', 'light_jn_3', 'light_ps_1']
+	ilds_in: ['light_jn_2_in2_0', 'light_jn_2_in2_1', 'light_jn_2_in2_2', 'light_jn_2_in4_0', 'light_jn_2_in4_1', 'light_jn_2_in4_2', 'light_jn_2_in4_3', 'light_jn_2_in1_0', 'light_jn_2_in1_1']
+light_jn_3:
+	neigbor: ['light_jn_2', 'light_ps_1']
+	ilds_in: ['light_jn_3_in2_0', 'light_jn_3_in2_1', 'light_jn_3_in2_2', 'light_jn_3_in4_0', 'light_jn_3_in4_1', 'light_jn_3_in4_2', 'light_jn_3_in4_3', 'light_jn_3_in1_0', 'light_jn_3_in1_1']
+light_jn_7:
+	neigbor: ['light_lj_3']
+	ilds_in: ['light_jn_7_in1_0', 'light_jn_7_in1_1', 'light_jn_7_in2_0', 'light_jn_7_in2_1', 'light_jn_7_in2_2', 'light_jn_7_in4_0', 'light_jn_7_in4_1', 'light_jn_7_in4_2']
+light_lj_1:
+	neigbor: ['light_ps_2', 'light_lj_2']
+	ilds_in: ['light_lj_1_in2_0', 'light_lj_1_in2_1', 'light_lj_1_in3_0', 'light_lj_1_in3_1', 'light_lj_1_in3_2', 'light_lj_1_in4_0', 'light_lj_1_in4_1', 'light_lj_1_in1_0', 'light_lj_1_in1_1', 'light_lj_1_in1_2']
+light_lj_2:
+	neigbor: ['light_lj_1', 'light_lj_3']
+	ilds_in: ['light_lj_2_in2_0', 'light_lj_2_in2_1', 'light_lj_2_in2_2', 'light_lj_2_in3_0', 'light_lj_2_in3_1', 'light_lj_2_in3_2', 'light_lj_2_in4_0', 'light_lj_2_in4_1', 'light_lj_2_in4_2', 'light_lj_2_in1_0', 'light_lj_2_in1_1', 'light_lj_2_in1_2']
+light_lj_3:
+	neigbor: ['light_lj_2', 'light_jn_7']
+	ilds_in: ['light_lj_3_in2_0', 'light_lj_3_in3_0', 'light_lj_3_in3_1', 'light_lj_3_in3_2', 'light_lj_3_in4_0', 'light_lj_3_in1_0', 'light_lj_3_in1_1', 'light_lj_3_in1_2']
+light_lp_2:
+	neigbor: ['light_lz_1', 'light_xz_1', 'light_sc_3']
+	ilds_in: ['light_lp_2_in2_0', 'light_lp_2_in2_1', 'light_lp_2_in2_2', 'light_lp_2_in2_3', 'light_lp_2_in3_0', 'light_lp_2_in3_1', 'light_lp_2_in3_2', 'light_lp_2_in3_3', 'light_lp_2_in4_0', 'light_lp_2_in1_0', 'light_lp_2_in1_1', 'light_lp_2_in1_2', 'light_lp_2_in1_3', 'light_lp_2_in1_4']
+light_lz_1:
+	neigbor: ['light_lp_2', 'light_lz_2', 'light_xz_1']
+	ilds_in: ['light_lz_1_in2_0', 'light_lz_1_in2_1', 'light_lz_1_in2_2', 'light_lz_1_in2_3', 'light_lz_1_in3_0', 'light_lz_1_in3_1', 'light_lz_1_in4_0', 'light_lz_1_in4_1', 'light_lz_1_in4_2', 'light_lz_1_in4_3', 'light_lz_1_in1_0']
+light_lz_2:
+	neigbor: ['light_lz_1', 'light_xz_2', 'light_ps_1']
+	ilds_in: ['light_lz_2_in2_0', 'light_lz_2_in2_1', 'light_lz_2_in2_2', 'light_lz_2_in2_3', 'light_lz_2_in2_4', 'light_lz_2_in3_0', 'light_lz_2_in3_1', 'light_lz_2_in3_2', 'light_lz_2_in4_0', 'light_lz_2_in4_1', 'light_lz_2_in4_2', 'light_lz_2_in4_3', 'light_lz_2_in4_4', 'light_lz_2_in1_0', 'light_lz_2_in1_1']
+light_ps_1:
+	neigbor: ['light_lz_2', 'light_sc_3', 'light_jn_2', 'light_jn_3', 'light_ps_2']
+	ilds_in: ['light_ps_1_in2_0', 'light_ps_1_in2_1', 'light_ps_1_in2_2', 'light_ps_1_in2_3', 'light_ps_1_in3_0', 'light_ps_1_in3_1', 'light_ps_1_in4_0', 'light_ps_1_in4_1', 'light_ps_1_in4_2', 'light_ps_1_in4_3', 'light_ps_1_in1_0', 'light_ps_1_in1_1']
+light_ps_2:
+	neigbor: ['light_ps_1', 'light_ps_3', 'light_lj_1']
+	ilds_in: ['light_ps_2_in1_0', 'light_ps_2_in1_1', 'light_ps_2_in1_2', 'light_ps_2_in1_3', 'light_ps_2_in2_0', 'light_ps_2_in2_1', 'light_ps_2_in3_0', 'light_ps_2_in3_1', 'light_ps_2_in3_2']
+light_ps_3:
+	neigbor: ['light_ps_2']
+	ilds_in: ['light_ps_3_in1_0', 'light_ps_3_in1_1', 'light_ps_3_in1_2', 'light_ps_3_in1_3', 'light_ps_3_in1_4', 'light_ps_3_in2_0', 'light_ps_3_in2_1', 'light_ps_3_in2_2', 'light_ps_3_in2_3', 'light_ps_3_in3_0', 'light_ps_3_in3_1', 'light_ps_3_in3_2', 'light_ps_3_in3_3', 'light_ps_3_in3_4', 'light_ps_3_in4_0', 'light_ps_3_in4_1', 'light_ps_3_in4_2', 'light_ps_3_in4_3']
+light_sc_1:
+	neigbor: ['light_sc_3']
+	ilds_in: ['light_sc_1_in2.302_0', 'light_sc_1_in2.302_1', 'light_sc_1_in2.302_2', 'light_sc_1_in2.302_3', 'light_sc_1_in3.69_0', 'light_sc_1_in3.69_1', 'light_sc_1_in3.69_2', 'light_sc_1_in3.69_3', 'light_sc_1_in3.69_4', 'light_sc_1_in4_0', 'light_sc_1_in4_1', 'light_sc_1_in4_2', 'light_sc_1_in4_3', 'light_sc_1_in1.246_0', 'light_sc_1_in1.246_1', 'light_sc_1_in1.246_2', 'light_sc_1_in1.246_3', 'light_sc_1_in1.246_4']
+light_sc_3:
+	neigbor: ['light_sc_1', 'light_jn_1', 'light_ps_1', 'light_lp_2']
+	ilds_in: ['light_sc_3_in2_0', 'light_sc_3_in2_1', 'light_sc_3_in2_2', 'light_sc_3_in2_3', 'light_sc_3_in3_0', 'light_sc_3_in3_1', 'light_sc_3_in4_0', 'light_sc_3_in4_1', 'light_sc_3_in4_2', 'light_sc_3_in4_3', 'light_sc_3_in1_0', 'light_sc_3_in1_1', 'light_sc_3_in1_2', 'light_sc_3_in1_3']
+light_xz_1:
+	neigbor: ['light_lp_2', 'light_lz_1', 'light_xz_2']
+	ilds_in: ['light_xz_1_in2_0', 'light_xz_1_in2_1', 'light_xz_1_in3_0', 'light_xz_1_in4_0', 'light_xz_1_in1_0']
+light_xz_2:
+	neigbor: ['light_xz_1', 'light_lz_2']
+	ilds_in: ['light_xz_2_in2_0', 'light_xz_2_in3_0', 'light_xz_2_in3_1', 'light_xz_2_in4_0', 'light_xz_2_in1_0', 'light_xz_2_in1_1']
+
+2021-02-20 09:47:59,462 [INFO] Training: s dim: 1887, a dim 29686813949952, s dim ls: [115, 101, 87, 62, 91, 102, 78, 138, 124, 143, 156, 116, 121, 130, 166, 85, 72], a dim ls: [4, 4, 4, 4, 6, 6, 6, 8, 8, 8, 8, 4, 8, 8, 8, 8, 8]
+2021-02-20 09:47:59,463 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/model.py:20: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2021-02-20 09:47:59,463 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/model.py:21: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+2021-02-20 09:47:59,470 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/model.py:22: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2021-02-20 09:47:59,470 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/model.py:23: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2021-02-20 09:47:59,570 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/policy.py:18: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2021-02-20 09:48:11,383 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/model.py:29: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2021-02-20 09:48:11,602 [WARNING] From /home/changxi/miniconda3/envs/py37_gpu/lib/python3.7/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2021-02-20 09:48:12,968 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/policy.py:141: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+2021-02-20 09:48:12,968 [WARNING] From /home/changxi/miniconda3/envs/py37_gpu/lib/python3.7/site-packages/tensorflow/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2021-02-20 09:48:13,090 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/policy.py:149: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2021-02-20 09:48:13,091 [WARNING] From /home/changxi/sumo_projects/sumo_marl_pingshan/policy.py:154: The name tf.summary.merge is deprecated. Please use tf.compat.v1.summary.merge instead.
+
